@@ -26,7 +26,7 @@
     {
      "type": "html",
      "name": "part1_text",
-     "html": "<p><b>Part 1 of 2 \u00b7 Rating.</b> You will see 20 videos, each with ONE motion. Rate each motion from 1 (very poor) to 5 (excellent) on how well it follows the text, how physically plausible it is, and its overall quality.</p>"
+     "html": "<p><b>Part 1 of 2 \u00b7 Rating.</b> You will see 20 videos, each with ONE motion. Rate each motion from 1 (very poor) to 5 (excellent) on how well it follows the text, how physically plausible it is, and its overall quality.</p><p><b>Please avoid the middle score 3</b> unless you really cannot lean either way: if a motion is somewhat good, give 4; if it is somewhat bad, give 2. Use the full range of the scale.</p>"
     }
    ]
   },
@@ -41,7 +41,7 @@
     {
      "type": "html",
      "name": "video_u01",
-     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u01.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u01.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -86,7 +86,7 @@
     {
      "type": "html",
      "name": "video_u02",
-     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u02.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u02.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -131,7 +131,7 @@
     {
      "type": "html",
      "name": "video_u03",
-     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u03.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u03.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -176,7 +176,7 @@
     {
      "type": "html",
      "name": "video_u04",
-     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u04.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u04.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -221,7 +221,7 @@
     {
      "type": "html",
      "name": "video_u05",
-     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u05.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man gets on the exercise bike and does exercise</b></p><video src=\"videos/u05.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -266,7 +266,7 @@
     {
      "type": "html",
      "name": "video_u06",
-     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u06.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u06.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -311,7 +311,7 @@
     {
      "type": "html",
      "name": "video_u07",
-     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u07.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u07.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -356,7 +356,7 @@
     {
      "type": "html",
      "name": "video_u08",
-     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u08.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u08.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -401,7 +401,7 @@
     {
      "type": "html",
      "name": "video_u09",
-     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u09.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u09.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -446,7 +446,7 @@
     {
      "type": "html",
      "name": "video_u10",
-     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u10.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does sit-ups on the roman chair</b></p><video src=\"videos/u10.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -491,7 +491,7 @@
     {
      "type": "html",
      "name": "video_u11",
-     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u11.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u11.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -536,7 +536,7 @@
     {
      "type": "html",
      "name": "video_u12",
-     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u12.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u12.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -581,7 +581,7 @@
     {
      "type": "html",
      "name": "video_u13",
-     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u13.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u13.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -626,7 +626,7 @@
     {
      "type": "html",
      "name": "video_u14",
-     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u14.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u14.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -671,7 +671,7 @@
     {
      "type": "html",
      "name": "video_u15",
-     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u15.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man steps over the rim into the bathtub, sits down and lies back</b></p><video src=\"videos/u15.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -716,7 +716,7 @@
     {
      "type": "html",
      "name": "video_u16",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u16.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u16.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -761,7 +761,7 @@
     {
      "type": "html",
      "name": "video_u17",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u17.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u17.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -806,7 +806,7 @@
     {
      "type": "html",
      "name": "video_u18",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u18.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u18.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -851,7 +851,7 @@
     {
      "type": "html",
      "name": "video_u19",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u19.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u19.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -896,7 +896,7 @@
     {
      "type": "html",
      "name": "video_u20",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u20.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs the steel ladder against the wall step by step to the top and reaches up</b></p><video src=\"videos/u20.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -941,7 +941,7 @@
     {
      "type": "html",
      "name": "video_u21",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u21.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u21.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -986,7 +986,7 @@
     {
      "type": "html",
      "name": "video_u22",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u22.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u22.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1031,7 +1031,7 @@
     {
      "type": "html",
      "name": "video_u23",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u23.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u23.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1076,7 +1076,7 @@
     {
      "type": "html",
      "name": "video_u24",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u24.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u24.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1121,7 +1121,7 @@
     {
      "type": "html",
      "name": "video_u25",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u25.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs up to the bunk bed</b></p><video src=\"videos/u25.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1166,7 +1166,7 @@
     {
      "type": "html",
      "name": "video_u26",
-     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u26.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u26.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1211,7 +1211,7 @@
     {
      "type": "html",
      "name": "video_u27",
-     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u27.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u27.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1256,7 +1256,7 @@
     {
      "type": "html",
      "name": "video_u28",
-     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u28.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u28.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1301,7 +1301,7 @@
     {
      "type": "html",
      "name": "video_u29",
-     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u29.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u29.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1346,7 +1346,7 @@
     {
      "type": "html",
      "name": "video_u30",
-     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u30.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man walks to the beanbag, turns around and drops backwards into it</b></p><video src=\"videos/u30.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1391,7 +1391,7 @@
     {
      "type": "html",
      "name": "video_u31",
-     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u31.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u31.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1436,7 +1436,7 @@
     {
      "type": "html",
      "name": "video_u32",
-     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u32.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u32.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1481,7 +1481,7 @@
     {
      "type": "html",
      "name": "video_u33",
-     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u33.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u33.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1526,7 +1526,7 @@
     {
      "type": "html",
      "name": "video_u34",
-     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u34.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u34.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1571,7 +1571,7 @@
     {
      "type": "html",
      "name": "video_u35",
-     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u35.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man sits down on the sofa and relaxes</b></p><video src=\"videos/u35.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1616,7 +1616,7 @@
     {
      "type": "html",
      "name": "video_u36",
-     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u36.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u36.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1661,7 +1661,7 @@
     {
      "type": "html",
      "name": "video_u37",
-     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u37.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u37.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1706,7 +1706,7 @@
     {
      "type": "html",
      "name": "video_u38",
-     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u38.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u38.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1751,7 +1751,7 @@
     {
      "type": "html",
      "name": "video_u39",
-     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u39.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u39.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1796,7 +1796,7 @@
     {
      "type": "html",
      "name": "video_u40",
-     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u40.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man does a pull-up on the bar</b></p><video src=\"videos/u40.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1841,7 +1841,7 @@
     {
      "type": "html",
      "name": "video_u41",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u41.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u41.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1886,7 +1886,7 @@
     {
      "type": "html",
      "name": "video_u42",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u42.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u42.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1931,7 +1931,7 @@
     {
      "type": "html",
      "name": "video_u43",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u43.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u43.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -1976,7 +1976,7 @@
     {
      "type": "html",
      "name": "video_u44",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u44.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u44.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -2021,7 +2021,7 @@
     {
      "type": "html",
      "name": "video_u45",
-     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u45.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man climbs onto the lower shelves of the bookcase and reaches up for the storage box from the top shelf</b></p><video src=\"videos/u45.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -2066,7 +2066,7 @@
     {
      "type": "html",
      "name": "video_u46",
-     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u46.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u46.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -2111,7 +2111,7 @@
     {
      "type": "html",
      "name": "video_u47",
-     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u47.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u47.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -2156,7 +2156,7 @@
     {
      "type": "html",
      "name": "video_u48",
-     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u48.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u48.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -2201,7 +2201,7 @@
     {
      "type": "html",
      "name": "video_u49",
-     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u49.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u49.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",
@@ -2246,7 +2246,7 @@
     {
      "type": "html",
      "name": "video_u50",
-     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u50.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video>"
+     "html": "<p class=\"prompt\">Text: <b>A man comes to the treadmill, presses the start button on the console, and begins running</b></p><video src=\"videos/u50.mp4\" autoplay loop muted controls playsinline style=\"width:100%\"></video><p class=\"hint\">1 = very poor \u00b7 5 = excellent \u00b7 please avoid 3 unless you truly cannot decide</p>"
     },
     {
      "type": "rating",

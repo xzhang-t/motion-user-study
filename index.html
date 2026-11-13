@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!-- 2026-11-13: GitHub Pages version of the HMS_UserStudy SurveyJS page. Answers (0 = left, 1 = right, as HMS views.submit stores
+     them) are POSTed to the Google Apps Script web app in config.js (SHEET_URL), one row per participant. -->
+<head>
+    <title>Motion User Study</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/survey-jquery@1.11.14/defaultV2.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/survey-jquery@1.11.14/survey.jquery.min.js"></script>
+    <script src="config.js"></script>
+    <style>
+        body { margin: 0; background: #f3f3f3 }
+        .sd-body.sd-body--static { max-width: 90% !important; }
+        .sd-description { font-style: italic; font-size: larger; color: var(--foreground-light, #909090); }
+        .prompt { font-size: 1.15rem; margin: 0 0 10px }
+        video { background: #fff; border-radius: 4px }
+        #done { max-width: 900px; margin: 24px auto; font: 15px/1.5 system-ui, sans-serif; display: none }
+    </style>
+</head>
+<body>
+    <div id="surveyContainer"></div>
+    <div id="done"><p id="msg"></p><a id="dl" download="answers.json" style="display:none">Download your answers</a></div>
+    <script>
+    $(function () {
+        $.getJSON("form.json?" + Date.now(), function (data) {
+            var survey = new Survey.Model(data), t0 = Date.now();
+            survey.onComplete.add(function (sender) {
+                var items = {};
+                Object.keys(sender.data).forEach(function (k) { items[k] = parseInt(sender.data[k]) - 1; });
+                var rec = { submitted: new Date().toISOString(), seconds: Math.round((Date.now() - t0) / 1000), answers: items };
+                var s = JSON.stringify(rec);
+                $("#dl").attr("href", "data:application/json," + encodeURIComponent(s));
+                $("#done").show();
+                if (!window.SHEET_URL) { $("#msg").text("Thank you! Please download your answers and send them to the organizer."); $("#dl").show(); return; }
+                // text/plain + no-cors: no CORS preflight, which Apps Script web apps do not answer
+                fetch(window.SHEET_URL, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: s })
+                    .then(function () { $("#msg").text("Thank you! Your answers were submitted."); })
+                    .catch(function () { $("#msg").text("Submission failed. Please download your answers and send them to the organizer."); $("#dl").show(); });
+            });
+            $("#surveyContainer").Survey({ model: survey });
+        });
+    });
+    </script>
+</body>
+</html>

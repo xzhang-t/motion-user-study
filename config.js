@@ -1,0 +1,1 @@
+window.SHEET_URL = "";

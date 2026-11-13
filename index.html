@@ -49,7 +49,7 @@
             var survey = new Survey.Model(data), t0 = Date.now();
             survey.onComplete.add(function (sender) {
                 var items = {};
-                Object.keys(sender.data).forEach(function (k) { items[k] = parseInt(sender.data[k]) - 1; });
+                Object.keys(sender.data).forEach(function (k) { items[k] = k === 'participant__initials' ? String(sender.data[k]).trim().toUpperCase() : parseInt(sender.data[k]) - 1; });
                 var rec = { submitted: new Date().toISOString(), seconds: Math.round((Date.now() - t0) / 1000), answers: items };
                 var s = JSON.stringify(rec);
                 $("#dl").attr("href", "data:application/json," + encodeURIComponent(s));

@@ -25,6 +25,10 @@
     <script>
     $(function () {
         $.getJSON("form.json?" + Date.now(), function (data) {
+            // each participant gets their own item order (intro page stays first)
+            var items = data.pages.slice(1);
+            for (var i = items.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = items[i]; items[i] = items[j]; items[j] = t; }
+            data.pages = [data.pages[0]].concat(items);
             var survey = new Survey.Model(data), t0 = Date.now();
             survey.onComplete.add(function (sender) {
                 var items = {};

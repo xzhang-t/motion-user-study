@@ -51,6 +51,9 @@
             var unary = shuffle(by('unary').filter(function (p) { return p.studySets.indexOf(set) >= 0; }));
             data.pages = by('intro').concat(by('part1'), unary, by('part2'), shuffle(by('pair')));
             data.pages.forEach(function (p) { delete p.block; delete p.studySets; });
+            // question numbers sat in the frame padding that was tightened to fit one screen and overflowed it; with shuffled pages
+            // they carry no meaning anyway (2026-11-13, user: "序号穿出白格子了")
+            data.showQuestionNumbers = 'off';
             var survey = new Survey.Model(data), t0 = Date.now();
             survey.onComplete.add(function (sender) {
                 var items = {};

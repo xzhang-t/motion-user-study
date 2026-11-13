@@ -32,7 +32,7 @@
     {
      "type": "rating",
      "name": "physics__q01",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -72,7 +72,7 @@
     {
      "type": "rating",
      "name": "physics__q02",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -112,7 +112,7 @@
     {
      "type": "rating",
      "name": "physics__q03",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -152,7 +152,7 @@
     {
      "type": "rating",
      "name": "physics__q04",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -192,7 +192,7 @@
     {
      "type": "rating",
      "name": "physics__q05",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -232,7 +232,7 @@
     {
      "type": "rating",
      "name": "physics__q06",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -272,7 +272,7 @@
     {
      "type": "rating",
      "name": "physics__q07",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -312,7 +312,7 @@
     {
      "type": "rating",
      "name": "physics__q08",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -352,7 +352,7 @@
     {
      "type": "rating",
      "name": "physics__q09",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -392,7 +392,7 @@
     {
      "type": "rating",
      "name": "physics__q10",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -432,7 +432,7 @@
     {
      "type": "rating",
      "name": "physics__q11",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -472,7 +472,7 @@
     {
      "type": "rating",
      "name": "physics__q12",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -512,7 +512,7 @@
     {
      "type": "rating",
      "name": "physics__q13",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -552,7 +552,7 @@
     {
      "type": "rating",
      "name": "physics__q14",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -592,7 +592,7 @@
     {
      "type": "rating",
      "name": "physics__q15",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -632,7 +632,7 @@
     {
      "type": "rating",
      "name": "physics__q16",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -672,7 +672,7 @@
     {
      "type": "rating",
      "name": "physics__q17",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -712,7 +712,7 @@
     {
      "type": "rating",
      "name": "physics__q18",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -752,7 +752,7 @@
     {
      "type": "rating",
      "name": "physics__q19",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
@@ -792,7 +792,7 @@
     {
      "type": "rating",
      "name": "physics__q20",
-     "title": "Which motion interacts with the scene more plausibly (no body parts passing through objects, no floating, no sliding)?",
+     "title": "Which motion is more physically plausible (no body parts passing through objects, no floating or sliding, no distorted or unnaturally twisted body)?",
      "isRequired": true,
      "rateMin": 1,
      "rateMax": 2,
